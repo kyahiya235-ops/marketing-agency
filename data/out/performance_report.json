@@ -1,0 +1,44 @@
+{
+  "campaigns": {
+    "CMP-01": {
+      "channel": "Instagram Ads",
+      "spend": 71232,
+      "ctr_pct": 1.8,
+      "cpc": 14,
+      "cpa": 347,
+      "roas": 3.89
+    },
+    "CMP-02": {
+      "channel": "Google Search",
+      "spend": 84260,
+      "ctr_pct": 6,
+      "cpc": 22,
+      "cpa": 314,
+      "roas": 4.29
+    },
+    "CMP-03": {
+      "channel": "Email",
+      "spend": 11852,
+      "ctr_pct": 3.5,
+      "cpc": 4,
+      "cpa": 67,
+      "roas": 20.16
+    },
+    "CMP-04": {
+      "channel": "TikTok",
+      "spend": 31635,
+      "ctr_pct": 0.6,
+      "cpc": 15,
+      "cpa": 1217,
+      "roas": 1.11
+    }
+  },
+  "best_roas": {
+    "id": "CMP-03",
+    "roas": 20.16
+  },
+  "flags": [
+    "Bottleneck: CMP-04 TikTok ROAS 1.11x is below 1.5x target. Pause or rework creative",
+    "Bottleneck: CMP-04 TikTok CTR 0.6% is below 1%. Test new hooks"
+  ]
+}

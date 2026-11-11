@@ -1,0 +1,11 @@
+{
+  "name": "BrightBrew",
+  "note": "Fictional demo brand used for this assignment",
+  "product": "Ready-to-drink cold brew coffee (330 ml bottle)",
+  "price_pkr": 450,
+  "city": "Islamabad",
+  "audience": "Students and young professionals aged 18 to 35",
+  "tone": "friendly, energetic, honest",
+  "goal": "Launch the cold brew line and reach 500 online orders in the first month",
+  "banned_claims": ["guaranteed", "cure", "#1", "best in the world", "100% healthy", "lose weight"]
+}

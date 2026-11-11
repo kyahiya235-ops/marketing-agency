@@ -1,0 +1,6 @@
+[
+  {"id": "CMP-01", "name": "Cold Brew Launch", "channel": "Instagram Ads", "budget_pkr": 150000, "start_offset_days": 1, "landing_url": "https://brightbrew.example/launch?utm_source=instagram&utm_medium=paid&utm_campaign=cmp01_launch"},
+  {"id": "CMP-02", "name": "Search: Cold Brew Islamabad", "channel": "Google Search", "budget_pkr": 90000, "start_offset_days": 1, "landing_url": "https://brightbrew.example/shop?utm_source=google&utm_medium=cpc&utm_campaign=cmp02_search"},
+  {"id": "CMP-03", "name": "Launch Email Series", "channel": "Email", "budget_pkr": 20000, "start_offset_days": 3, "landing_url": "https://brightbrew.example/welcome?utm_source=email&utm_medium=email&utm_campaign=cmp03_series"},
+  {"id": "CMP-04", "name": "Creator Tasting Week", "channel": "TikTok", "budget_pkr": 60000, "start_offset_days": 5, "landing_url": "https://brightbrew.example/tasting"}
+]

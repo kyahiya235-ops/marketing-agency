@@ -1,0 +1,92 @@
+{
+  "agency": "Marketing Agency",
+  "slug": "marketing-agency",
+  "version": "1.0.0",
+  "installedAt": "2026-11-10T17:06:03.898Z",
+  "timezone": "Asia/Karachi",
+  "basedOn": {
+    "repo": "https://github.com/markfulton/ai-employees",
+    "note": "Same kit layout as ai-employees (ROLE.md, SCHEDULE.md, routines/<id>/SKILL.md, runlog.jsonl). The marketing roles are custom kits written for this assignment. Upstream ships GTM Engineer, SEO/AEO, Social Media, Ad Manager and Chief of Staff kits, which these roles are modelled on."
+  },
+  "harness": "claude-code",
+  "brand": "BrightBrew (fictional demo brand)",
+  "employees": [
+    {
+      "id": "marketing-chief-of-staff",
+      "role": "Project Manager (Chief of Staff)",
+      "folder": "employees/marketing-chief-of-staff",
+      "routine": "marketing-daily-audit-and-brief",
+      "schedule": "weekdays 18:00",
+      "isProjectManager": true
+    },
+    {
+      "id": "market-researcher",
+      "role": "Lead Researcher (Market Intelligence)",
+      "folder": "employees/market-researcher",
+      "routine": "market-intel-sweep",
+      "schedule": "weekdays 09:00"
+    },
+    {
+      "id": "content-writer",
+      "role": "Content Writer (Ads and Social)",
+      "folder": "employees/content-writer",
+      "routine": "draft-ads-and-posts",
+      "schedule": "weekdays 10:00"
+    },
+    {
+      "id": "campaign-builder",
+      "role": "Campaign Builder (Calendar and Scheduling)",
+      "folder": "employees/campaign-builder",
+      "routine": "build-content-calendar",
+      "schedule": "weekdays 11:00"
+    },
+    {
+      "id": "outbound-strategist",
+      "role": "Outbound Strategist (Lead Forms and Target Accounts)",
+      "folder": "employees/outbound-strategist",
+      "routine": "parse-leads-and-targets",
+      "schedule": "weekdays 12:00"
+    },
+    {
+      "id": "social-triage",
+      "role": "Support Triage (Social Inbox)",
+      "folder": "employees/social-triage",
+      "routine": "triage-social-inbox",
+      "schedule": "weekdays 13:00"
+    },
+    {
+      "id": "technical-auditor",
+      "role": "Technical Auditor (Marketing Ops)",
+      "folder": "employees/technical-auditor",
+      "routine": "tracking-and-data-audit",
+      "schedule": "weekdays 15:00"
+    },
+    {
+      "id": "performance-analyst",
+      "role": "Performance Analyst (Growth Metrics)",
+      "folder": "employees/performance-analyst",
+      "routine": "growth-metrics-review",
+      "schedule": "weekdays 16:00"
+    }
+  ],
+  "automationBridges": {
+    "runLogger": "scripts/runlog.mjs",
+    "sheetLedger": "scripts/sheet_bridge.mjs",
+    "dailyEmail": "scripts/daily_brief.mjs",
+    "orchestrator": "scripts/run_all.mjs",
+    "workers": "scripts/agents.mjs",
+    "googleAppsScript": "apps-script/Code.gs",
+    "appsScriptManifest": "apps-script/appsscript.json",
+    "ledgerColumns": [
+      "Timestamp",
+      "Agent Name",
+      "Task Performed",
+      "Output Status"
+    ]
+  },
+  "guardrails": {
+    "outbound": "held for owner",
+    "credentials": "never stored",
+    "logPrivacy": "run logger refuses emails, links, phone numbers and secrets"
+  }
+}

@@ -1,0 +1,6 @@
+[
+  {"name": "Kolachi Cold Co", "price_pkr": 520, "followers": 48000, "channels": ["Instagram", "TikTok"], "strength": "strong influencer reach", "weakness": "slow delivery outside Karachi"},
+  {"name": "Margalla Roast", "price_pkr": 480, "followers": 21000, "channels": ["Instagram", "Google"], "strength": "loyal cafe customers", "weakness": "no student discounts"},
+  {"name": "Chill Bean", "price_pkr": 390, "followers": 9000, "channels": ["Facebook"], "strength": "lowest price", "weakness": "inconsistent taste reviews"},
+  {"name": "Urban Sip", "price_pkr": 550, "followers": 33000, "channels": ["Instagram", "Email"], "strength": "premium packaging", "weakness": "slow delivery outside Karachi"}
+]

@@ -1,0 +1,10 @@
+[
+  {"id": "M1", "channel": "Instagram DM", "from": "@sana.reads", "text": "Where can I buy BrightBrew in Rawalpindi? Do you deliver?"},
+  {"id": "M2", "channel": "Instagram comment", "from": "@hamza_fit", "text": "Love the taste, best cold brew I have had this year!"},
+  {"id": "M3", "channel": "Facebook message", "from": "Areeba N.", "text": "My order arrived late and one bottle was leaking. I want a refund."},
+  {"id": "M4", "channel": "Instagram DM", "from": "@officehub.isb", "text": "We run a coworking space with 60 members. Do you offer bulk pricing for our office?"},
+  {"id": "M5", "channel": "TikTok comment", "from": "@cryptoking99", "text": "Get free followers now http://spam.example crypto giveaway"},
+  {"id": "M6", "channel": "Instagram comment", "from": "@zainab.k", "text": "Is there a student discount? How much is a 6 pack?"},
+  {"id": "M7", "channel": "Facebook message", "from": "Bilal S.", "text": "Wrong flavour delivered, I ordered vanilla. Please fix this."},
+  {"id": "M8", "channel": "Instagram DM", "from": "@brewcafe.lhr", "text": "Our cafe in Lahore would like to partner and stock your bottles."}
+]

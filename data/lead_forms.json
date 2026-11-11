@@ -1,0 +1,8 @@
+[
+  {"name": "Omar Siddiqui", "company": "Hub Coworking", "email": "omar@hubcowork.example", "employees": 60, "interest": "bulk office supply", "source": "website form", "city": "Islamabad"},
+  {"name": "Mehwish Rana", "company": "Brew Corner Cafe", "email": "mehwish@brewcorner.example", "employees": 12, "interest": "cafe partnership", "source": "referral", "city": "Lahore"},
+  {"name": "Tariq Javed", "company": "FitLife Gym", "email": "tariq-at-fitlife", "employees": 25, "interest": "gym fridge stock", "source": "website form", "city": "Rawalpindi"},
+  {"name": "Omar Siddiqui", "company": "Hub Coworking", "email": "omar@hubcowork.example", "employees": 60, "interest": "bulk office supply", "source": "instagram", "city": "Islamabad"},
+  {"name": "Hira Aslam", "company": "Campus Bites", "email": "hira@campusbites.example", "employees": 5, "interest": "retail shelf", "source": "website form", "city": "Karachi"},
+  {"name": "Danish Ali", "company": "NextGen Agency", "email": "danish@nextgen.example", "employees": 120, "interest": "office subscription", "source": "referral", "city": "Islamabad"}
+]
