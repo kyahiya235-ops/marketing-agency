@@ -9,7 +9,6 @@
     "note": "Same kit layout as ai-employees (ROLE.md, SCHEDULE.md, routines/<id>/SKILL.md, runlog.jsonl). The marketing roles are custom kits written for this assignment. Upstream ships GTM Engineer, SEO/AEO, Social Media, Ad Manager and Chief of Staff kits, which these roles are modelled on."
   },
   "harness": "claude-code",
-  "brand": "BrightBrew (fictional demo brand)",
   "employees": [
     {
       "id": "marketing-chief-of-staff",

@@ -51,7 +51,6 @@ const counts = runs.reduce((a, r) => (a[r.status] = (a[r.status] || 0) + 1, a), 
 const data = {
   generatedAt: new Date().toISOString(),
   agency: installed.agency || "Marketing Agency",
-  brand: installed.brand || "",
   timezone: installed.timezone || "",
   employees, runs, outputs, brief, counts,
 };
