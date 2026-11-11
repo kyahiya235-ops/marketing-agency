@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-11-11T17:01:38.760Z",
+  "agency": "Marketing Agency",
+  "brand": "BrightBrew (fictional demo brand)",
+  "timezone": "Asia/Karachi",
+  "employees": [
+    {
+      "id": "marketing-chief-of-staff",
+      "role": "Project Manager (Chief of Staff)",
+      "routine": "marketing-daily-audit-and-brief",
+      "schedule": "weekdays 18:00",
+      "isProjectManager": true,
+      "status": "ok",
+      "task": "Audited all 7 agents (0 missing) and saved the daily brief",
+      "lastRun": "2026-11-11T22:01:38+05:00"
+    },
+    {
+      "id": "market-researcher",
+      "role": "Lead Researcher (Market Intelligence)",
+      "routine": "market-intel-sweep",
+      "schedule": "weekdays 09:00",
+      "isProjectManager": false,
+      "status": "ok",
+      "task": "Profiled 4 competitors and found 3 positioning gaps",
+      "lastRun": "2026-11-11T22:01:38+05:00"
+    },
+    {
+      "id": "content-writer",
+      "role": "Content Writer (Ads and Social)",
+      "routine": "draft-ads-and-posts",
+      "schedule": "weekdays 10:00",
+      "isProjectManager": false,
+      "status": "ok",
+      "task": "Drafted 12 ad headlines and 4 social posts (all held for approval)",
+      "lastRun": "2026-11-11T22:01:38+05:00"
+    },
+    {
+      "id": "campaign-builder",
+      "role": "Campaign Builder (Calendar and Scheduling)",
+      "routine": "build-content-calendar",
+      "schedule": "weekdays 11:00",
+      "isProjectManager": false,
+      "status": "ok",
+      "task": "Built a 2 week content calendar with 16 scheduled drafts across 4 campaigns",
+      "lastRun": "2026-11-11T22:01:38+05:00"
+    },
+    {
+      "id": "outbound-strategist",
+      "role": "Outbound Strategist (Lead Forms and Target Accounts)",
+      "routine": "parse-leads-and-targets",
+      "schedule": "weekdays 12:00",
+      "isProjectManager": false,
+      "status": "ok",
+      "task": "Parsed 6 lead forms into 4 target accounts (1 invalid, 1 duplicate removed)",
+      "lastRun": "2026-11-11T22:01:38+05:00"
+    },
+    {
+      "id": "social-triage",
+      "role": "Support Triage (Social Inbox)",
+      "routine": "triage-social-inbox",
+      "schedule": "weekdays 13:00",
+      "isProjectManager": false,
+      "status": "ok",
+      "task": "Triaged 8 messages (2 complaints, 2 sales leads), replies drafted and held",
+      "lastRun": "2026-11-11T22:01:38+05:00"
+    },
+    {
+      "id": "technical-auditor",
+      "role": "Technical Auditor (Marketing Ops)",
+      "routine": "tracking-and-data-audit",
+      "schedule": "weekdays 15:00",
+      "isProjectManager": false,
+      "status": "partial",
+      "task": "Audited tracking links, metrics data and ad copy, found 3 issue(s) and wrote a cleaned metrics file",
+      "lastRun": "2026-11-11T22:01:38+05:00"
+    },
+    {
+      "id": "performance-analyst",
+      "role": "Performance Analyst (Growth Metrics)",
+      "routine": "growth-metrics-review",
+      "schedule": "weekdays 16:00",
+      "isProjectManager": false,
+      "status": "ok",
+      "task": "Analysed 4 campaigns across channels, best ROAS 20.16x, flagged 2 bottleneck(s)",
+      "lastRun": "2026-11-11T22:01:38+05:00"
+    }
+  ],
+  "runs": [
+    {
+      "timestamp": "2026-11-11T22:01:38+05:00",
+      "agent": "market-researcher",
+      "task": "Profiled 4 competitors and found 3 positioning gaps",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T22:01:38+05:00",
+      "agent": "content-writer",
+      "task": "Drafted 12 ad headlines and 4 social posts (all held for approval)",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T22:01:38+05:00",
+      "agent": "campaign-builder",
+      "task": "Built a 2 week content calendar with 16 scheduled drafts across 4 campaigns",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T22:01:38+05:00",
+      "agent": "outbound-strategist",
+      "task": "Parsed 6 lead forms into 4 target accounts (1 invalid, 1 duplicate removed)",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T22:01:38+05:00",
+      "agent": "social-triage",
+      "task": "Triaged 8 messages (2 complaints, 2 sales leads), replies drafted and held",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T22:01:38+05:00",
+      "agent": "technical-auditor",
+      "task": "Audited tracking links, metrics data and ad copy, found 3 issue(s) and wrote a cleaned metrics file",
+      "status": "partial"
+    },
+    {
+      "timestamp": "2026-11-11T22:01:38+05:00",
+      "agent": "performance-analyst",
+      "task": "Analysed 4 campaigns across channels, best ROAS 20.16x, flagged 2 bottleneck(s)",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T22:01:38+05:00",
+      "agent": "marketing-chief-of-staff",
+      "task": "Audited all 7 agents (0 missing) and saved the daily brief",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T18:18:44+05:00",
+      "agent": "marketing-chief-of-staff",
+      "task": "Audited all 7 agents (0 missing) and emailed the daily brief",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T18:18:41+05:00",
+      "agent": "performance-analyst",
+      "task": "Analysed 4 campaigns across channels, best ROAS 20.16x, flagged 2 bottleneck(s)",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T18:18:39+05:00",
+      "agent": "technical-auditor",
+      "task": "Audited tracking links, metrics data and ad copy, found 3 issue(s) and wrote a cleaned metrics file",
+      "status": "partial"
+    },
+    {
+      "timestamp": "2026-11-11T18:18:37+05:00",
+      "agent": "social-triage",
+      "task": "Triaged 8 messages (2 complaints, 2 sales leads), replies drafted and held",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T18:18:34+05:00",
+      "agent": "outbound-strategist",
+      "task": "Parsed 6 lead forms into 4 target accounts (1 invalid, 1 duplicate removed)",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T18:18:32+05:00",
+      "agent": "campaign-builder",
+      "task": "Built a 2 week content calendar with 16 scheduled drafts across 4 campaigns",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T18:18:30+05:00",
+      "agent": "content-writer",
+      "task": "Drafted 12 ad headlines and 4 social posts (all held for approval)",
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-11-11T18:18:27+05:00",
+      "agent": "market-researcher",
+      "task": "Profiled 4 competitors and found 3 positioning gaps",
+      "status": "ok"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "account_profiles.md",
+      "agent": "outbound-strategist",
+      "size": 672,
+      "truncated": false,
+      "content": "# Baseline account profiles\n\n## Hub Coworking (A)\n- Contact: Omar Siddiqui, Islamabad\n- Size: 60 people\n- Interest: bulk office supply\n- Source: website form\n- Next step: personal call and bulk offer\n\n## Brew Corner Cafe (B)\n- Contact: Mehwish Rana, Lahore\n- Size: 12 people\n- Interest: cafe partnership\n- Source: referral\n- Next step: send sample pack\n\n## Campus Bites (C)\n- Contact: Hira Aslam, Karachi\n- Size: 5 people\n- Interest: retail shelf\n- Source: website form\n- Next step: add to nurture email\n\n## NextGen Agency (A)\n- Contact: Danish Ali, Islamabad\n- Size: 120 people\n- Interest: office subscription\n- Source: referral\n- Next step: personal call and bulk offer\n"
+    },
+    {
+      "file": "ad_copy.md",
+      "agent": "content-writer",
+      "size": 1271,
+      "truncated": false,
+      "content": "# Ad copy (all drafts held for approval)\nTone: friendly, energetic, honest\n\n## CMP-01 Cold Brew Launch (Instagram Ads)\n- Headline 1: Cold brew, made for your day\n- Headline 2: Fresh in Islamabad, fast to you\n- Headline 3: Meet BrightBrew: smooth, never bitter\n- Body: Ready-to-drink cold brew coffee (330 ml bottle) at PKR 450. Order today and taste the difference.\n- CTA: Order now\n\n## CMP-02 Search: Cold Brew Islamabad (Google Search)\n- Headline 1: Cold Brew Coffee Islamabad\n- Headline 2: Fresh Cold Brew Delivered\n- Headline 3: Premium Cold Brew Coffee Islamabad\n- Body: Ready-to-drink cold brew coffee (330 ml bottle) at PKR 450. Order today and taste the difference.\n- CTA: Order now\n\n## CMP-03 Launch Email Series (Email)\n- Headline 1: Your first BrightBrew is on us\n- Headline 2: Cold brew, delivered cold\n- Headline 3: Welcome to BrightBrew\n- Body: Ready-to-drink cold brew coffee (330 ml bottle) at PKR 450. Order today and taste the difference.\n- CTA: Order now\n\n## CMP-04 Creator Tasting Week (TikTok)\n- Headline 1: Taste test: BrightBrew vs the rest\n- Headline 2: POV: your 3pm coffee is sorted\n- Headline 3: Creators try BrightBrew\n- Body: Ready-to-drink cold brew coffee (330 ml bottle) at PKR 450. Order today and taste the difference.\n- CTA: Order now\n\n"
+    },
+    {
+      "file": "audit_report.md",
+      "agent": "technical-auditor",
+      "size": 229,
+      "truncated": false,
+      "content": "# Marketing ops audit\n\n- CMP-04: landing link is missing UTM tracking parameters\n- CMP-04 on 2026-11-07: clicks exceed impressions (data error, row removed from clean file)\n- CMP-02: Google headline is 34 characters, limit is 30\n"
+    },
+    {
+      "file": "campaign_plan.md",
+      "agent": "campaign-builder",
+      "size": 487,
+      "truncated": false,
+      "content": "# Campaign plan: BrightBrew\n\nGoal: Launch the cold brew line and reach 500 online orders in the first month\n\n- CMP-01 Cold Brew Launch: Instagram Ads, budget PKR 150,000, 47% of total\n- CMP-02 Search: Cold Brew Islamabad: Google Search, budget PKR 90,000, 28% of total\n- CMP-03 Launch Email Series: Email, budget PKR 20,000, 6% of total\n- CMP-04 Creator Tasting Week: TikTok, budget PKR 60,000, 19% of total\n\nAll items are drafts. A human approves before anything is published or spent.\n"
+    },
+    {
+      "file": "content_calendar.csv",
+      "agent": "campaign-builder",
+      "size": 1394,
+      "truncated": false,
+      "content": "\"date\",\"campaign\",\"channel\",\"asset\",\"status\"\n\"2026-11-11\",\"CMP-01\",\"Instagram Ads\",\"Hero video\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-13\",\"CMP-01\",\"Instagram Ads\",\"Static post\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-15\",\"CMP-01\",\"Instagram Ads\",\"Story\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-17\",\"CMP-01\",\"Instagram Ads\",\"Reminder post\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-11\",\"CMP-02\",\"Google Search\",\"Hero video\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-13\",\"CMP-02\",\"Google Search\",\"Static post\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-15\",\"CMP-02\",\"Google Search\",\"Story\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-17\",\"CMP-02\",\"Google Search\",\"Reminder post\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-13\",\"CMP-03\",\"Email\",\"Email 1\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-15\",\"CMP-03\",\"Email\",\"Email 2\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-17\",\"CMP-03\",\"Email\",\"Email 3\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-19\",\"CMP-03\",\"Email\",\"Email 4\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-15\",\"CMP-04\",\"TikTok\",\"Hero video\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-17\",\"CMP-04\",\"TikTok\",\"Static post\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-19\",\"CMP-04\",\"TikTok\",\"Story\",\"Scheduled draft (awaiting approval)\"\n\"2026-11-21\",\"CMP-04\",\"TikTok\",\"Reminder post\",\"Scheduled draft (awaiting approval)\"\n"
+    },
+    {
+      "file": "market_brief.md",
+      "agent": "market-researcher",
+      "size": 592,
+      "truncated": false,
+      "content": "# Market brief: BrightBrew\n\n## Price position\n- Our price: PKR 450. Competitor average: PKR 485. We are below average by PKR 35.\n- Cheapest: Chill Bean. Most expensive: Urban Sip.\n\n## Competitor reach\n- Biggest audience: Kolachi Cold Co (48,000 followers) on Instagram and TikTok.\n\n## Gaps we can own\n- 2 competitors share this weakness: \"slow delivery outside Karachi\". Lead with fast local delivery.\n- 1 competitor(s) offer no student pricing. Test a student offer.\n\n## Recommended angle\nFast, fresh, fairly priced cold brew for students and young professionals aged 18 to 35 in Islamabad.\n"
+    },
+    {
+      "file": "metrics_clean.csv",
+      "agent": "technical-auditor",
+      "size": 1476,
+      "truncated": false,
+      "content": "campaign_id,channel,date,spend,impressions,clicks,conversions,revenue\nCMP-01,Instagram Ads,2026-11-03,8596,36948,614,25,33750\nCMP-01,Instagram Ads,2026-11-04,10766,41347,769,31,41850\nCMP-01,Instagram Ads,2026-11-05,11494,42705,821,33,44550\nCMP-01,Instagram Ads,2026-11-06,9072,37956,648,26,35100\nCMP-01,Instagram Ads,2026-11-07,9016,37822,644,26,35100\nCMP-01,Instagram Ads,2026-11-08,11438,42605,817,33,44550\nCMP-01,Instagram Ads,2026-11-09,10850,41507,775,31,41850\nCMP-02,Google Search,2026-11-03,11396,8811,518,36,48600\nCMP-02,Google Search,2026-11-04,13838,9713,629,44,59400\nCMP-02,Google Search,2026-11-05,11902,9005,541,38,51300\nCMP-02,Google Search,2026-11-06,10076,8285,458,32,43200\nCMP-02,Google Search,2026-11-07,12364,9179,562,39,52650\nCMP-02,Google Search,2026-11-08,13706,9668,623,44,59400\nCMP-02,Google Search,2026-11-09,10978,8649,499,35,47250\nCMP-03,Email,2026-11-03,1864,12643,466,28,37800\nCMP-03,Email,2026-11-04,1860,12624,465,28,37800\nCMP-03,Email,2026-11-05,1464,11196,366,22,29700\nCMP-03,Email,2026-11-06,1564,11584,391,23,31050\nCMP-03,Email,2026-11-07,1944,12911,486,29,39150\nCMP-03,Email,2026-11-08,1732,12182,433,26,35100\nCMP-03,Email,2026-11-09,1424,11042,356,21,28350\nCMP-04,TikTok,2026-11-03,6285,64736,419,5,6750\nCMP-04,TikTok,2026-11-04,5160,58614,344,4,5400\nCMP-04,TikTok,2026-11-05,4635,55621,309,4,5400\nCMP-04,TikTok,2026-11-06,5865,62514,391,5,6750\nCMP-04,TikTok,2026-11-08,4785,56524,319,4,5400\nCMP-04,TikTok,2026-11-09,4905,57165,327,4,5400\n"
+    },
+    {
+      "file": "performance_report.json",
+      "agent": "performance-analyst",
+      "size": 864,
+      "truncated": false,
+      "content": "{\n  \"campaigns\": {\n    \"CMP-01\": {\n      \"channel\": \"Instagram Ads\",\n      \"spend\": 71232,\n      \"ctr_pct\": 1.8,\n      \"cpc\": 14,\n      \"cpa\": 347,\n      \"roas\": 3.89\n    },\n    \"CMP-02\": {\n      \"channel\": \"Google Search\",\n      \"spend\": 84260,\n      \"ctr_pct\": 6,\n      \"cpc\": 22,\n      \"cpa\": 314,\n      \"roas\": 4.29\n    },\n    \"CMP-03\": {\n      \"channel\": \"Email\",\n      \"spend\": 11852,\n      \"ctr_pct\": 3.5,\n      \"cpc\": 4,\n      \"cpa\": 67,\n      \"roas\": 20.16\n    },\n    \"CMP-04\": {\n      \"channel\": \"TikTok\",\n      \"spend\": 31635,\n      \"ctr_pct\": 0.6,\n      \"cpc\": 15,\n      \"cpa\": 1217,\n      \"roas\": 1.11\n    }\n  },\n  \"best_roas\": {\n    \"id\": \"CMP-03\",\n    \"roas\": 20.16\n  },\n  \"flags\": [\n    \"Bottleneck: CMP-04 TikTok ROAS 1.11x is below 1.5x target. Pause or rework creative\",\n    \"Bottleneck: CMP-04 TikTok CTR 0.6% is below 1%. Test new hooks\"\n  ]\n}"
+    },
+    {
+      "file": "social_posts.md",
+      "agent": "content-writer",
+      "size": 764,
+      "truncated": false,
+      "content": "# Social post drafts (held)\n\n### Instagram Ads post for Cold Brew Launch\nSay hello to BrightBrew, the cold brew built for busy days in Islamabad. Tap to order your first bottle.\n#coldbrew #brightbrew #islamabad\n\n### Google Search post for Search: Cold Brew Islamabad\nSay hello to BrightBrew, the cold brew built for busy days in Islamabad. Tap to order your first bottle.\n#coldbrew #brightbrew #islamabad\n\n### Email post for Launch Email Series\nSay hello to BrightBrew, the cold brew built for busy days in Islamabad. Tap to order your first bottle.\n#coldbrew #brightbrew #islamabad\n\n### TikTok post for Creator Tasting Week\nSay hello to BrightBrew, the cold brew built for busy days in Islamabad. Tap to order your first bottle.\n#coldbrew #brightbrew #islamabad\n\n"
+    },
+    {
+      "file": "target_accounts.csv",
+      "agent": "outbound-strategist",
+      "size": 334,
+      "truncated": false,
+      "content": "\"company\",\"contact\",\"city\",\"score\",\"tier\",\"interest\"\n\"Hub Coworking\",\"Omar Siddiqui\",\"Islamabad\",\"90\",\"A\",\"bulk office supply\"\n\"Brew Corner Cafe\",\"Mehwish Rana\",\"Lahore\",\"75\",\"B\",\"cafe partnership\"\n\"Campus Bites\",\"Hira Aslam\",\"Karachi\",\"40\",\"C\",\"retail shelf\"\n\"NextGen Agency\",\"Danish Ali\",\"Islamabad\",\"100\",\"A\",\"office subscription\"\n"
+    },
+    {
+      "file": "triage.csv",
+      "agent": "social-triage",
+      "size": 1012,
+      "truncated": false,
+      "content": "\"id\",\"channel\",\"category\",\"priority\",\"draft_reply\"\n\"M3\",\"Facebook message\",\"Complaint\",\"High\",\"We are sorry about this. Please send your order number by DM and we will fix it today.\"\n\"M4\",\"Instagram DM\",\"Sales lead\",\"High\",\"Thank you for reaching out. Our team will send bulk and partner pricing within one business day.\"\n\"M7\",\"Facebook message\",\"Complaint\",\"High\",\"We are sorry about this. Please send your order number by DM and we will fix it today.\"\n\"M8\",\"Instagram DM\",\"Sales lead\",\"High\",\"Thank you for reaching out. Our team will send bulk and partner pricing within one business day.\"\n\"M1\",\"Instagram DM\",\"Question\",\"Medium\",\"Thanks for asking! We deliver across Islamabad and Rawalpindi, and student pricing is coming soon.\"\n\"M6\",\"Instagram comment\",\"Question\",\"Medium\",\"Thanks for asking! We deliver across Islamabad and Rawalpindi, and student pricing is coming soon.\"\n\"M2\",\"Instagram comment\",\"Praise\",\"Low\",\"Thank you so much! We are glad you enjoy it.\"\n\"M5\",\"TikTok comment\",\"Spam\",\"Ignore\",\"Hide\"\n"
+    },
+    {
+      "file": "triage_summary.md",
+      "agent": "social-triage",
+      "size": 137,
+      "truncated": false,
+      "content": "# Inbox triage\n\n- Question: 2\n- Praise: 1\n- Complaint: 2\n- Sales lead: 2\n- Spam: 1\n\nReplies are drafts and are held for a human to send.\n"
+    }
+  ],
+  "brief": {
+    "file": "2026-11-11.md",
+    "content": "```\nMARKETING AGENCY DAILY BRIEF - 2026-11-11\n========================================\nAgents reported: 8/8 | Runs today: 15\n\nNEEDS ATTENTION\n  [PARTIAL] technical-auditor: Audited tracking links, metrics data and ad copy, found 3 issue(s) and wrote a cleaned metrics file\n\nAGENT STATUS\n  marketing-chief-of-staff OK       Compiled this brief and updated the sheet ledger\n  market-researcher        OK       Profiled 4 competitors and found 3 positioning gaps\n  content-writer           OK       Drafted 12 ad headlines and 4 social posts (all held for approval)\n  performance-analyst      OK       Analysed 4 campaigns across channels, best ROAS 20.16x, flagged 2 bottleneck(s)\n  campaign-builder         OK       Built a 2 week content calendar with 16 scheduled drafts across 4 campaigns\n  technical-auditor        PARTIAL  Audited tracking links, metrics data and ad copy, found 3 issue(s) and wrote a cleaned metrics file\n  social-triage            OK       Triaged 8 messages (2 complaints, 2 sales leads), replies drafted and held\n  outbound-strategist      OK       Parsed 6 lead forms into 4 target accounts (1 invalid, 1 duplicate removed)\n\nFull ledger: Google Sheet \"Marketing Agency Ledger\" (tab: Ledger)\n```\n"
+  },
+  "counts": {
+    "ok": 14,
+    "partial": 2
+  }
+}
